@@ -1,0 +1,160 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Rubik", sans-serif;
+  margin: none;
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: 4px;
+    max-width: 500px;
+  }
+}
+
+header {
+  text-align: center;
+  border-radius: 10px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+
+  font-weight: bold;
+}
+
+.navbar-Btn {
+  background: none;
+  border: none;
+  transition-property: scale;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  border-radius: 8px;
+  min-height: 25px;
+}
+.navbar-Btn:hover {
+  background-color: #2563eb;
+  scale: 1.5;
+  margin: 5px;
+}
+
+.content {
+  background: none;
+  margin: none;
+}
+.homepage {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(/25552.6c01d769.jpg);
+  border-radius: 6px;
+  background-position: center;
+  background-size: cover;
+  color: rgb(237, 235, 231);
+}
+.hpcontent {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+  align-items: center;
+}
+.imageContainer {
+  display: flex;
+  background-color: azure;
+  background-repeat: no-repeat;
+  margin-left: 80%;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 9px;
+  padding: 3.5rem;
+  color: black;
+}
+.imageContainer:hover {
+  background-color: hsl(0, 0%, 78%);
+}
+.writeUp {
+  margin-top: 10.5rem;
+  height: 7.5rem;
+  max-width: 50vw;
+  background-color: azure;
+  color: black;
+  border-radius: "10px";
+}
+.aboutPage {
+  background-image: url(/25552.6c01d769.jpg);
+  height: 100vh;
+
+  border-radius: 6px;
+}
+
+.aboutPage h1 {
+  color: rgb(237, 235, 231);
+  text-align: center;
+}
+.aboutPage .intro {
+  color: rgb(237, 235, 231);
+  padding: 0.5em;
+}
+
+.aboutPage .experience {
+  color: rgb(237, 235, 231);
+  padding: 0.5em;
+}
+.aboutPage .Odin {
+  display: flex;
+  height: 4rem;
+  max-width: fit-content;
+  border: 3px solid;
+  border-color: rgb(237, 235, 231);
+  padding: 3.5rem;
+  color: rgb(237, 235, 231);
+  border-radius: 5px;
+}
+.aboutPage .caption {
+  color: rgb(237, 235, 231);
+}
+.aboutPage .images {
+  display: flex;
+  justify-content: space-evenly;
+}
+.projectsPage {
+  padding: 20px;
+  height: 100vh;
+  border-radius: 6px;
+  background-image: url(/25552.6c01d769.jpg);
+  color: rgb(237, 235, 231);
+}
+.portfolios {
+  align-items: center;
+  border: 1px solid;
+  max-width: 100vw;
+  max-height: min-content;
+  padding: 1.5rem;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: silver;
+  text-align: center;
+}
+.projectImages {
+  position: relative;
+  left: 35rem;
+  transform: translateX(80pt);
+  border-radius: 6px;
+  max-height: 300px;
+  max-width: 100px;
+}
+.live {
+  color: azure;
+  transform: scale(1.2);
+}
+.live:hover {
+  transform: scale(1.5);
+}
+
+
+/*# sourceMappingURL=/main.fb6bbcaf.css.map */
